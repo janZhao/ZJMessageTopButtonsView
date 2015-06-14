@@ -14,6 +14,9 @@
 		06EFDB8F1B2D238100B2B645 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EFDB8E1B2D238100B2B645 /* Images.xcassets */; };
 		06EFDB921B2D238100B2B645 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06EFDB901B2D238100B2B645 /* LaunchScreen.xib */; };
 		06EFDB9E1B2D238100B2B645 /* MessageTopButtonsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDB9D1B2D238100B2B645 /* MessageTopButtonsViewTests.m */; };
+		06EFDBAA1B2D330C00B2B645 /* ZJMessageTopButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDBA91B2D330C00B2B645 /* ZJMessageTopButtonsView.m */; };
+		06EFDBC41B2D338500B2B645 /* UIView+JYDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDBBD1B2D338500B2B645 /* UIView+JYDView.m */; };
+		06EFDBC71B2D33CB00B2B645 /* ZJBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDBC61B2D33CB00B2B645 /* ZJBaseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		06EFDB971B2D238100B2B645 /* MessageTopButtonsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageTopButtonsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EFDB9C1B2D238100B2B645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06EFDB9D1B2D238100B2B645 /* MessageTopButtonsViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageTopButtonsViewTests.m; sourceTree = "<group>"; };
+		06EFDBA81B2D330C00B2B645 /* ZJMessageTopButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMessageTopButtonsView.h; sourceTree = "<group>"; };
+		06EFDBA91B2D330C00B2B645 /* ZJMessageTopButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMessageTopButtonsView.m; sourceTree = "<group>"; };
+		06EFDBBC1B2D338500B2B645 /* UIView+JYDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JYDView.h"; sourceTree = "<group>"; };
+		06EFDBBD1B2D338500B2B645 /* UIView+JYDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYDView.m"; sourceTree = "<group>"; };
+		06EFDBC51B2D33CB00B2B645 /* ZJBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJBaseView.h; sourceTree = "<group>"; };
+		06EFDBC61B2D33CB00B2B645 /* ZJBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJBaseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,8 @@
 		06EFDB801B2D238100B2B645 /* MessageTopButtonsView */ = {
 			isa = PBXGroup;
 			children = (
+				06EFDBAF1B2D338500B2B645 /* Category */,
+				06EFDBA71B2D32DA00B2B645 /* View */,
 				06EFDB851B2D238100B2B645 /* AppDelegate.h */,
 				06EFDB861B2D238100B2B645 /* AppDelegate.m */,
 				06EFDB881B2D238100B2B645 /* ViewController.h */,
@@ -117,6 +128,34 @@
 				06EFDB9C1B2D238100B2B645 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06EFDBA71B2D32DA00B2B645 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06EFDBAB1B2D334D00B2B645 /* Base */,
+				06EFDBA81B2D330C00B2B645 /* ZJMessageTopButtonsView.h */,
+				06EFDBA91B2D330C00B2B645 /* ZJMessageTopButtonsView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		06EFDBAB1B2D334D00B2B645 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				06EFDBC51B2D33CB00B2B645 /* ZJBaseView.h */,
+				06EFDBC61B2D33CB00B2B645 /* ZJBaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		06EFDBAF1B2D338500B2B645 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				06EFDBBC1B2D338500B2B645 /* UIView+JYDView.h */,
+				06EFDBBD1B2D338500B2B645 /* UIView+JYDView.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06EFDBAA1B2D330C00B2B645 /* ZJMessageTopButtonsView.m in Sources */,
 				06EFDB8A1B2D238100B2B645 /* ViewController.m in Sources */,
 				06EFDB871B2D238100B2B645 /* AppDelegate.m in Sources */,
 				06EFDB841B2D238100B2B645 /* main.m in Sources */,
+				06EFDBC41B2D338500B2B645 /* UIView+JYDView.m in Sources */,
+				06EFDBC71B2D33CB00B2B645 /* ZJBaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
