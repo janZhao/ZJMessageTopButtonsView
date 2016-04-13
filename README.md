@@ -7,12 +7,12 @@
   NSArray *tmpArr = [NSArray arrayWithObjects:@"背诵课本", @"课外文库", nil];
  [self setupMessageTopViewWithBtnArr:tmpArr];
  
--(void)setupMessageTopViewWithBtnArr:(NSArray *)arr
-{
- ZJMessageTopButtonsView *messageTopView = [[ZJMessageTopButtonsView alloc]init];
- messageTopView.buttonArray  = arr;
- messageTopView.delegete     = self;
- self.messageTopView         = messageTopView;
- messageTopView.frame        = CGRectMake(0, 120, App_Main_Screen_Width, 50);
- [self.view addSubview:messageTopView];
+-(void)setupMessageTopViewWithBtnArr:(NSArray *)arr <br>
+{<br>  
+ ZJMessageTopButtonsView *messageTopView = [[ZJMessageTopButtonsView alloc]init];<br>  
+ messageTopView.buttonArray  = arr;<br>  
+ messageTopView.delegete     = self;<br>  
+ self.messageTopView         = messageTopView;<br>  
+ messageTopView.frame        = CGRectMake(0, 120, App_Main_Screen_Width, 50);<br>  
+ [self.view addSubview:messageTopView];<br>  
 }
