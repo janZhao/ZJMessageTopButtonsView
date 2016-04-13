@@ -16,3 +16,5 @@
  messageTopView.frame        = CGRectMake(0, 120, App_Main_Screen_Width, 50);<br>  
  [self.view addSubview:messageTopView];<br>  
 }
+
+![image](https://github.com/janZhao/ZJMessageTopButtonsView/blob/master/MessageTopButtonsView/MessageTopButtonsView/sample.png)
