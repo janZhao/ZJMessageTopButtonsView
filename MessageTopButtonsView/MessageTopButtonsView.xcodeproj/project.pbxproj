@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06522B361CBE46B600721816 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 06522B351CBE46B600721816 /* sample.png */; };
 		06EFDB841B2D238100B2B645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDB831B2D238100B2B645 /* main.m */; };
 		06EFDB871B2D238100B2B645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDB861B2D238100B2B645 /* AppDelegate.m */; };
 		06EFDB8A1B2D238100B2B645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDB891B2D238100B2B645 /* ViewController.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06522B351CBE46B600721816 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
 		06EFDB7E1B2D238100B2B645 /* MessageTopButtonsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageTopButtonsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EFDB821B2D238100B2B645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06EFDB831B2D238100B2B645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		06EFDB801B2D238100B2B645 /* MessageTopButtonsView */ = {
 			isa = PBXGroup;
 			children = (
+				06522B351CBE46B600721816 /* sample.png */,
 				06EFDBAF1B2D338500B2B645 /* Category */,
 				06EFDBA71B2D32DA00B2B645 /* View */,
 				06EFDB851B2D238100B2B645 /* AppDelegate.h */,
@@ -241,6 +244,7 @@
 				06EFDB8D1B2D238100B2B645 /* Main.storyboard in Resources */,
 				06EFDB921B2D238100B2B645 /* LaunchScreen.xib in Resources */,
 				06EFDB8F1B2D238100B2B645 /* Images.xcassets in Resources */,
+				06522B361CBE46B600721816 /* sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +466,7 @@
 				06EFDBA31B2D238100B2B645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06EFDBA41B2D238100B2B645 /* Build configuration list for PBXNativeTarget "MessageTopButtonsViewTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +475,7 @@
 				06EFDBA61B2D238100B2B645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
